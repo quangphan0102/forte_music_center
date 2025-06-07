@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.8">
+    <path d="M30 40h10v50H30zM50 40h10v50H50zM70 40h10v50H70z" fill="currentColor"/>
+    <path d="M35 40h5v30h-5zM55 40h5v30h-5zM75 40h5v30h-5z" fill="#000" fill-opacity="0.1"/>
+    <path d="M20 90h70v5H20zM20 35h70v5H20z" fill="currentColor"/>
+    <circle cx="60" cy="25" r="15" fill="currentColor" fill-opacity="0.2"/>
+  </g>
+</svg> 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.8">
+    <rect x="20" y="30" width="80" height="60" rx="5" fill="currentColor" fill-opacity="0.2"/>
+    <path d="M25 35h10v40H25zM45 35h10v40H45zM65 35h10v40H65zM85 35h10v40H85z" fill="currentColor"/>
+    <path d="M35 35h5v25h-5zM55 35h5v25h-5zM75 35h5v25h-5z" fill="#000" fill-opacity="0.1"/>
+    <path d="M20 85h80v5H20z" fill="currentColor"/>
+  </g>
+</svg> 
