@@ -35,7 +35,7 @@ export default function Hero() {
                 href="tel:0965509184"
                 className="rounded-md bg-[#1b73c5] px-6 py-4 text-base font-semibold text-white shadow-sm hover:bg-[#1b73c5]/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1b73c5] sm:px-3.5 sm:py-2.5 sm:text-sm transition-colors duration-300"
               >
-                Đăng ký ngay
+                Liên hệ ngay
               </a>
             </div>
           </div>
