@@ -1,28 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import aboutImage1 from '../assets/images/about_images/about_img_1.jpg';
-import aboutImage2 from '../assets/images/about_images/about_img_2.jpg';
-import aboutImage3 from '../assets/images/about_images/about_img_3.jpg';
-
-const ABOUT_DATA = [
-  {
-    id: 1,
-    title: "Lorem ipsum dolor sit amet",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    image: aboutImage1
-  },
-  {
-    id: 2,
-    title: "Consectetur adipiscing elit",
-    description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.",
-    image: aboutImage2
-  },
-  {
-    id: 3,
-    title: "Sed do eiusmod tempor",
-    description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-    image: aboutImage3
-  }
-];
+import ABOUT_DATA from '../DATA/ABOUT_DATA';
 
 export default function About() {
   const [selectedId, setSelectedId] = useState(1);
@@ -68,7 +45,7 @@ export default function About() {
   };
 
   return (
-    <section className="relative min-h-screen w-full bg-[#dfeeff] py-20 px-4 sm:px-6 lg:px-8">
+    <section className="relative w-full bg-[#dfeeff] py-20 px-4 sm:px-6 lg:px-8">
       {/* Simplified background decoration */}
       <div
         aria-hidden="true"
